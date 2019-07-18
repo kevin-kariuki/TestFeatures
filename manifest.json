@@ -1,0 +1,67 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://9e94517a-9dd5-4b34-bffa-44bd1fbc5795",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://a9c3a27e-0722-440f-a0ca-86916f4b28cf",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://6b6d1800-dfaf-48d3-9cfc-a158c0177707",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 173,
+					"width": 1741,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://066347f1-289d-4d3e-9b35-0de41be63a48",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://exhibits.stanford.edu/images/44/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://exhibits.stanford.edu/images/44",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg",
+												"png"
+											]
+										}
+									]
+								},
+								"height": 173,
+								"width": 1741
+							},
+							"on": "http://6b6d1800-dfaf-48d3-9cfc-a158c0177707"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
